@@ -1,5 +1,9 @@
 # builder-pattern-generator
 Takes a domain-class as input and generates code for a builder.
+<p>
+It will make one builder per constructor in the domain-class. Use your IDE to make the constructors you need.
+<p>
+For compilation purposes, only the first builder will get a ".java" suffix, the others will get a ".java.nr.txt" suffix. Which means you have to give them meaningful names maually, but the code is all there.
 
 <h2>Install into IDE</h2>
 Import into your IDE and update libraries from Maven.

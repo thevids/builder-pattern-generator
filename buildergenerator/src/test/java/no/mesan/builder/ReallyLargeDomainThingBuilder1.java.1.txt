@@ -1,0 +1,23 @@
+package no.mesan.builder;
+
+import java.io.Serializable;
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+/**
+ * Builder for ReallyLargeDomainThing
+ */
+public class ReallyLargeDomainThingBuilder1 {
+
+	String appointmentID;
+
+	public ReallyLargeDomainThingBuilder appointmentID(String appointmentID) {
+		this.appointmentID = appointmentID;
+		return this;
+	}
+
+	public ReallyLargeDomainThing build() {
+		return new ReallyLargeDomainThing(appointmentID);
+	}
+}

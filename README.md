@@ -21,5 +21,5 @@ The Runner is configured to make a builder for it in the same package. This is a
 Modify the BuilderGeneratorRunner to point to your code, the two constants and the "classToGenerateFor" variable. The last one can also be looped through to generate for a whole directory, some code to do that already lies there commented out.
 
 <h3>Use it differently</h3>
-Make a rest-service out of it, or a command-line tool. Or maybe a GIU or a IDE plug-in?
-All the logic is done in the class BuilderGenerator, and you have one instance of the generator per domain-class. Just follow the example from the BuilderGeneratorRunne.
+Make a rest-service out of it, or a command-line tool. Or maybe a GUI or a IDE plug-in?
+All the logic is done in the class BuilderGenerator, and you have one instance of the generator per domain-class. Just follow the example from the BuilderGeneratorRunner.
